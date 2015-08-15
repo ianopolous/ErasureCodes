@@ -1,5 +1,5 @@
 # ErasureCodes
-A Javascript implementation of Reed-Solomon erasure codes
+A Javascript implementation of Reed-Solomon erasure codes. This library is optimised for, and operates on, large Uint8Arrays. To include, simply add erasure.js to your project, and call the *split*, and *recombine* methods. The recombine method assume the fragments are in the same order as they were initially after encode. 
 
 A browser benchmark demonstrating erasure encoding and decoding is at:
 http://ianopolous.github.io/ErasureCodes/erasure.html
